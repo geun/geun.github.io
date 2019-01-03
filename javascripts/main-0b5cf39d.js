@@ -1,0 +1,1 @@
+var app=angular.module("blog",["ngMaterial"]);app.controller("AppCtrl",["$scope","$mdSidenav",function(n,o){n.toggleSidenav=function(n){o(n).toggle()}}]).run(function(n){});
